@@ -1,0 +1,181 @@
+html{
+   scroll-behavior: smooth;
+}
+
+header{
+   background-image: url(logo/front-left-side-47.webp);
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+
+}
+h1,h2,h3,h4,h5,h6{
+   font-weight: bold;
+}
+.navbar-nav{
+   margin-left: 40%;
+   color: white;
+}
+
+.navbar{ 
+   background-color: rgba(0,0,0,0.3);
+}
+
+ .nav-item .nav-link{
+   color:white;
+   margin:10px;
+   border-radius: 5px;
+   transition: .4s;
+} 
+.content{
+   margin-top: 16%;
+}
+
+#featurs{
+   padding: 5% 10%;
+   background-color: #FFDEDE;
+}
+.featurs-col{
+   border: 1px solid #EE81B3;
+   border-radius: 5px;
+   padding: 15px;
+   margin: 20px 0px;
+   transition: .4s;
+}
+.featurs-col:hover{
+   transform: scale(1.1);
+   box-shadow: 4px 8px 20px black;
+}
+
+            /* about information */
+
+.container-1{
+   background-color: rgb(253, 251, 251);
+   height: auto
+}
+.style-icon{
+   background-color: #A149FA;
+   color: white;
+   padding: 15px;
+}
+.style{
+   border: 5px dotted white;
+   border-bottom: none;
+   width: 58px;
+   margin-left: 47%;  
+}
+.hmmm{
+  margin-left: 40%;
+}
+.per{
+   text-align: center;
+   color: #293462;
+}
+.color{
+   text-transform: capitalize;
+   font-weight: bold;
+   padding: 3px 5px;
+   color: #3EC70B;
+}
+.link:hover{
+  color:#FF0063 ;
+}
+.if{
+   text-transform: capitalize;
+   font-weight: bold;
+   padding: 3px 5px;
+   line-break: 2px;
+   color: #FF0063;
+}
+.cour{
+   letter-spacing: 1px;
+   text-transform: capitalize;
+   font-weight: bold;
+   color: #FF0063;
+   text-shadow: 3px 2px grey;
+}
+.item{
+   margin-top: 6%;
+   width: 50%;
+   margin: 3%;
+   padding: 3%;
+   text-align: center;
+   border: 4px double greenyellow;
+}
+.item:hover{
+   background-color: grey;
+   color: white;
+   transition: 2s;
+}
+/* skill */
+.skill{
+   font-weight: bold;
+}
+.star i{
+   width: 20px;
+   color:blue;
+}
+
+.card:hover{
+   transition: 0.5s;
+   border: 1px solid red;
+   box-shadow: 2px 3px 3px 3px grey;
+}
+.mor:hover{
+   cursor: pointer;
+   transition: 0.5s;
+    color: rgb(253, 5, 5);
+}
+#feedback{
+   padding: 5%;
+   height: 1150px;
+   background-color: #5eaaa8;
+}
+.img-sizing{
+   height: 150px;
+   width: auto;
+}
+.carousel-item{
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+   padding: 10% 15%;
+   font-size: 1.2rem;
+}
+.carousel-indicators{
+   margin-bottom: 5px;
+}
+#contact{
+   padding: 2% 10%; 
+}
+.text{
+   font-weight: bold;
+   font-style: italic;
+}
+footer{
+  padding: 2% 3px;
+   background-color: #A149FA;
+}
+.copy{
+   font-weight: bold;
+   text-transform: capitalize;
+   font-size: 20px;
+   font-style: italic;
+}
+.copy:hover{
+   color: red;
+   transition: 0.5s;
+}
+footer a{
+   color: white;
+   margin: 10px;
+   font-weight: bold;
+   text-decoration: none;
+}
+footer a:hover{
+   color: black;
+}
+
+
